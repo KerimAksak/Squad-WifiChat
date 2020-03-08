@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- SİYAH KIRMIZI RENK PALETİ -->
+    <color name="kirmizi1">#ed0b0e</color>
+    <color name="kirmizi2">#ff0000</color>
+    <color name="kirmizi3">#af0404</color>
+    <color name="kahverengi">#410a14</color>
+    <color name="gri">#bbb8b5</color>
+    <color name="gri2">#414141</color>
+    <color name="gri3">#252527</color>
+    <color name="gri4">#252525</color>
+
+
+
+
+
 </resources>

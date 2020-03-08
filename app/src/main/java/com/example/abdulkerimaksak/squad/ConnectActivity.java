@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ConnectActivity extends AppCompatActivity {
 
@@ -35,8 +36,14 @@ public class ConnectActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(wifiManager.isWifiEnabled()) {
                     wifiManager.setWifiEnabled(false);
+                    Toast toast = Toast.makeText(getApplicationContext(), "Wi-fi kapatıldı.", Toast.LENGTH_SHORT);
+                    toast.show();
+                    btnOnOff.setText("Aç");
                 }else{
                     wifiManager.setWifiEnabled(true);
+                    Toast toast = Toast.makeText(getApplicationContext(), "Wi-fi açıldı.", Toast.LENGTH_SHORT);
+                    toast.show();
+                    btnOnOff.setText("Kapat");
                 }
             }
         });
